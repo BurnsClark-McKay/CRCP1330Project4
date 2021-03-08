@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 1,
-			"revision" : 7,
+			"revision" : 8,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 59.0, 104.0, 1290.0, 787.0 ],
+		"rect" : [ 34.0, 77.0, 1298.0, 617.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -39,6 +39,18 @@
 		"subpatcher_template" : "",
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-6",
+					"linecount" : 2,
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 275.0, 120.0, 150.0, 34.0 ],
+					"text" : "Using this as a base file to save time."
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-3",
 					"maxclass" : "comment",
@@ -78,7 +90,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 509.0, 265.0, 473.0, 33.0 ],
+					"patching_rect" : [ 509.0, 265.0, 473.0, 34.0 ],
 					"text" : "<-- note again -- this bang has to be here to make it add every time it gets a new number in the right, because the line output is not through the leftmost outlet"
 				}
 
@@ -90,7 +102,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 850.33331298828125, 141.0, 150.0, 33.0 ],
+					"patching_rect" : [ 850.33331298828125, 141.0, 150.0, 34.0 ],
 					"text" : "example of changing frequency via [function]"
 				}
 
@@ -214,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 233.70001220703125, 19.5, 245.0, 60.0 ],
+					"patching_rect" : [ 233.70001220703125, 19.5, 245.0, 62.0 ],
 					"text" : "Programmer: Courtney Brown\nDate: Feb. 2020, updated Feb. 2021\n5 Reson filters in using some odd harmonic partials"
 				}
 
